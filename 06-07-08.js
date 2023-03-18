@@ -76,12 +76,13 @@ return niu;
       // persona.getPromedioEdad() debería devolver 29 ya que (33 + 25) / 2 = 29
 
       // Tu código aca:
-      let niu = 0; 
+      let niu = 0;
       const amigos = this.amigos;
       for (let i = 0; i < amigos.length; i++) {
-        niu += amigos[i].edad
+                niu += amigos[i].edad;
       }
-      return niu/amigos.length;
+      return niu / amigos.length;
+     
     }
   };
 
